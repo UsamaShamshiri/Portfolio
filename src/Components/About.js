@@ -11,14 +11,13 @@ function About() {
       },
       { threshold: 0.3 } // Trigger animation when 30% of the element is visible
     );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+    const currentSection = sectionRef.current;    if (sectionRef.current) {
+      observer.observe(currentSection);
     }
 
     return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+      if (currentSection) {
+        observer.unobserve(currentSection);
       }
     };
   }, []);
