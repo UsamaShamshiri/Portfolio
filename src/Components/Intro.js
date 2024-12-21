@@ -20,7 +20,7 @@ function Intro() {
 
           <div className="mt-8">
             <a
-              href="https://drive.google.com/uc?id=1ySrNPKSj8WcoawYA9rquMTQ27xMG4rtT&export=download"
+              href="https://drive.google.com/uc?id=1OAC9MyhkPLdqSC571fZmTMAiJNR7RnTS&exprt=download"
               className="  bg-indigo-700 text-white px-8 py-4 rounded-full shadow-xl hover:bg-indigo-500 "
             >
               Download Resume
