@@ -54,7 +54,7 @@ function About() {
         isVisible ? 'animate-fadeInUp' : ''
       }`}>
           <div className="w-full md:w-3/4 lg:w-1/2">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-sky-300">My Skills</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-indigo-700">My Skills</h2>
   
             {/* Skill Bars */}
             {[

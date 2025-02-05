@@ -13,7 +13,7 @@ function Edu() {
 
                 {/* Education Section */}
                 <section className="mb-16">
-                    <h1 className="text-3xl font-bold text-center ">Education</h1>
+                    <h1 className="text-3xl font-bold text-center text-indigo-700 ">Education</h1>
                     <div className="flex flex-col md:flex-row items-center justify-center gap-8 mt-8">
                         <img
                             alt="logo"
@@ -32,7 +32,7 @@ function Edu() {
 
                 {/* Certification Section */}
                 <section>
-                    <h1 className="text-3xl font-bold text-center ">Certifications</h1>
+                    <h1 className="text-3xl font-bold text-center text-indigo-700 ">Certifications</h1>
 
                     {/* Spring Certification */}
                     <div className="  mt-12 flex justify-center mb-8 ">
